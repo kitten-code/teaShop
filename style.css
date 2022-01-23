@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Oswald:wght@300&display=swap');
+
+body{
+    background-color:rgb(255, 255, 255) ;
+    overflow-x: hidden;
+}
+
+.logo{
+    font-size: 150px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight:50;
+    
+    color: beige;
+    position: absolute;
+    margin-top:200px;
+    margin-left: 400px;
+    margin-right: auto;
+    
+    
+}
+
+
+li{
+    float:right;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.container1{
+    margin: 20px;
+    position: absolute;
+}
+
+#img1{
+    margin-top: 100px;
+    float: right;
+}
+
+.text_about_Shop{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 45%;
+    text-align: left;
+    float: left;
+    margin-top: 100px;
+}
+
+.gallery{
+  
+}
+
+.heading-box {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 40px;
+    line-height: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.underline {
+    background-color: black;
+    width: 500px;
+    height: 1px;
+}
+
+.square{
+    margin-top: 150px;
+    width:100%;
+    background-color: rgb(235, 231, 181);
+}
+.teaType {
+    display: flex;
+    justify-content: center;
+    position: relative  ;
+    gap: 40px;
+}
+
+.teaImage{
+    cursor: pointer;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.teaImage h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.teaImage img {
+    min-width: 25vw;
+    max-width: 30vw;
+    min-height: 100%;
+    max-height: 400px;
+}
+
+.text-box {
+    min-height: 40vh;
+    margin: 50px 20px;
+}
+
+.text-box p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    text-align: justify;
+}
+
+  
+.map{
+    margin-top:50px ;
+    margin-left: 200px;
+}
+
+.contact{
+    display:flex;
+}
+.contactBox{
+    display:flex;
+    font-family:'Montserrat', sans-serif ;
+    font-weight: bold;
+    font-size: 22px;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    margin: 0 auto;
+}
+.fa {
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
